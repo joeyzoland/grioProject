@@ -21,6 +21,7 @@ Create a directory (titled "Grio" in this example), clone the git repository int
 mkdir Grio
 cd Grio
 git clone https://github.com/joeyzoland/grioProject
+cd grioProject
 npm install
 npm run dev
 ```
