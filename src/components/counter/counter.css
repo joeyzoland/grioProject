@@ -1,0 +1,36 @@
+.counterContainer {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#7fc8ff, #0092ff)
+}
+
+.counterDisplay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-left: 30%;
+  width: 40%;
+  font-size: 24px;
+  border-radius: 8px;
+  background: radial-gradient(#ff0000, #e50000);
+}
+
+.counterButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100px;
+  width: 20%;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+#incrementButton {
+  margin-left: 75%;
+}
+
+#logoutButton {
+  margin-left: 5%;
+}

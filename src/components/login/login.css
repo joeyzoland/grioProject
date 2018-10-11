@@ -1,0 +1,32 @@
+form {
+  position: absolute;
+  top: 5%;
+  transform: translateY(-5%);
+  margin-left: 5%;
+  width: 90%;
+}
+
+form label {
+  font-size: 30px;
+}
+
+form input {
+  display: block;
+  height: 30px;
+  width: 50%;
+}
+
+.loginContainer {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#ffc17f, #ff8300);
+}
+
+.loginButton {
+  position: absolute;
+  height: 80px;
+  width: 20%;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px;
+}
