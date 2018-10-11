@@ -15,16 +15,13 @@ This is a ReactJS project using Node and Express, in accordance with Grio's inte
 
 ## Installing Getting started
 
-Create a directory (titled "Grio" in this example), clone the git repository into that folder, and then install all dependencies.  Navigate into the client folder and install all of those dependencies.  Finally, return to the main folder and run both the server and client, courtesy of the "concurrently" module.  Now you're good to go!
+Create a directory (titled "Grio" in this example), clone the git repository into that folder, and then install all dependencies.  Finally, run both the server and client in the same terminal window, courtesy of the "concurrently" module.  Now you're good to go!
 
 ```
 mkdir Grio
 cd Grio
-git clone https://github.com/joeyzoland/Grio
+git clone https://github.com/joeyzoland/grioProject
 npm install
-cd client
-npm install
-cd ..
 npm run dev
 ```
 
